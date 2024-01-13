@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileAppPTLabTest20240112134900.Views.Q3A"
+             Title="Q3A">
+    <VerticalStackLayout>
+        <Label 
+            Text="Welcome to .NET MAUI!"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+        <Button Text="Fetch" Clicked="Fetch" />
+
+        <!--<CollectionView ItemsSource="">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <StackLayout>
+                        <Label Text="{Binding Id}" />
+                        <Label Text="{Binding UserId}" />
+                        <Label Text="{Binding Title}" />
+                        <Label Text="{Binding Body}" />
+                    </StackLayout>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>-->
+    </VerticalStackLayout>
+</ContentPage>
